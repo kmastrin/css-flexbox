@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 .container{
-	width:1020px;
 	margin:0 auto;
 	background-color: lavender;
 }
@@ -13,10 +12,12 @@ header{
 
 .flex-container{
 	display:flex;
+	padding:30px 10px 30px 10px;
 	background-color: cornflowerblue;
 	flex-direction:row;
-	align-items:stretch;
-	height:150px;
+	flex-wrap: nowrap;
+	align-items:center;
+	justify-content: center;
 }
 
 .flex-container div{
@@ -38,5 +39,6 @@ footer{
 	.flex-container {
 		flex-direction:column;
 	}
-	header{background-color:lightblue;}
+	
+header{background-color:lightblue;}
 }
