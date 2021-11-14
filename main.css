@@ -3,6 +3,7 @@
 .container{
 	margin:0 auto;
 	background-color: lavender;
+	height: 600px;
 }
 
 header{
@@ -23,6 +24,7 @@ header{
 	flex-wrap: nowrap;
 	align-items:center;
 	justify-content: center;
+	height:600px;
 }
 
 .flex-container div{
